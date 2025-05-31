@@ -8,7 +8,7 @@ layout:
 plugins:
   helm.kubebuilder.io/v1-alpha: {}
 projectName: project
-repo: github.com/vitorfloriano/project
+repo: example.com/memcached
 resources:
 - api:
     crdVersion: v1
@@ -17,6 +17,6 @@ resources:
   domain: example.com
   group: cache
   kind: Memcached
-  path: github.com/vitorfloriano/project/api/v1alpha1
+  path: example.com/memcached/api/v1alpha1
   version: v1alpha1
 version: "3"
